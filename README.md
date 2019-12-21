@@ -3,17 +3,20 @@ MATLAB project for recognizing music notes from an input audio file
 
 
 1.1	OBJECTIVES AND GOALS
+
 Design a musical note recognition software using MATLAB.
 It can identify the exact note by finding the frequency of the input note.
 
 
 
 1.2 	ABSTRACT
+
 Music is an integral part of everyone’s lives. Music helps in relaxation, therapy and entertainment. The audio industry is booming with online platforms for music streaming. This program helps identify the musical notes in a piece of audio and gives valuable information about its pitch, frequency and type. The music piece fed to the system can be decoded to identify which note the signal corresponds to.
 
 
 1.3 FEATURES
-         -  Effective use of Fast Fourier Transform to determine   frequency
+
+-  Effective use of Fast Fourier Transform to determine   frequency
 -  Can be used for audio matching
 -  Decode the musical note type for any unknown audio signal
 
