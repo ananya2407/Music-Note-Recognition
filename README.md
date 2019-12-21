@@ -14,13 +14,13 @@ Music is an integral part of everyone’s lives. Music helps in relaxation, ther
 -  Decode the musical note type for any unknown audio signal
 
 
-DESIGN
+1.4 DESIGN
 
 The musical piece is fed to the system which processes the audio signal and recognizes the frequency and pitch of the signal thereby identifying the type of musical note by comparing it with the standard musical notes available.
 
 
 
-2.2 	SOFTWARE ANALYSIS
+1.5 	SOFTWARE ANALYSIS
 
 The process used for this project can be described in six different stages. 
 1) The first step involves the input of a sequence of desired musical note whose frequency is to be found. The sequence of sounds are digitally recorded. 
@@ -48,14 +48,14 @@ If the frequency is in the middle C octave range it determines what pitch it is 
 
 
 
-CONCLUSION
+1.6    CONCLUSION
 
 In our project, we designed and implemented an effective and user-friendly frequency estimation system with Fourier Analysis. 
 
 The target users of the system are not only the people practicing music, but also professional musicians who cannot waste their time figuring out the notes of an audio sample.
 
 
-FUTURE WORK
+1.7    FUTURE WORK
 There is still much room for future development that would enhance the system and increase its usage value. The following items are some suggestions:
 
 Advanced Note Detection: 
@@ -68,10 +68,13 @@ Multiple Notes at a time:
 Our project assumes that only a single note is played at a time. But that is not it. We can develop it further by using Fourier Analysis again. There are existing algorithms which can isolate multiple notes. After splitting the audio sample into individual notes we can apply our own techniques to find the frequency.
 
 
-REFERENCES
+1.8   REFERENCES
 www.google.com
+
 www.wikipedia.com 
+
 https://www.clear.rice.edu
+
 https://in.mathworks.com/matlabcentral/fileexchange
 
 
