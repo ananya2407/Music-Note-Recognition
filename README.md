@@ -1,8 +1,12 @@
 # Music-Note-Recognition
 MATLAB project for recognizing music notes from an input audio file
+
+
 1.1	OBJECTIVES AND GOALS
 Design a musical note recognition software using MATLAB.
 It can identify the exact note by finding the frequency of the input note.
+
+
 
 1.2 	ABSTRACT
 Music is an integral part of everyone’s lives. Music helps in relaxation, therapy and entertainment. The audio industry is booming with online platforms for music streaming. This program helps identify the musical notes in a piece of audio and gives valuable information about its pitch, frequency and type. The music piece fed to the system can be decoded to identify which note the signal corresponds to.
@@ -32,6 +36,7 @@ This program takes in a double array specified by the data and outputs a vector 
 
 4) The fourth step involves the analysis of the signal in the frequency domain.  Now as that the windows of each note have been determined in the step above mentioned, each individual note is converted to the frequency domain. Hence, here comes the application of fast fourier series to get the frequency domain of our input signal.
 
+
 FAST FOURIER TRANSFORM
 The fast Fourier transform (FFT) is a discrete Fourier transform algorithm which reduces the number of computations needed for  points from  to , where log is the base-2 logarithm.
 
@@ -55,6 +60,8 @@ In our project, we designed and implemented an effective and user-friendly frequ
 The target users of the system are not only the people practicing music, but also professional musicians who cannot waste their time figuring out the notes of an audio sample.
 
 
+
+
 1.7    FUTURE WORK
 There is still much room for future development that would enhance the system and increase its usage value. The following items are some suggestions:
 
@@ -68,7 +75,10 @@ Multiple Notes at a time:
 Our project assumes that only a single note is played at a time. But that is not it. We can develop it further by using Fourier Analysis again. There are existing algorithms which can isolate multiple notes. After splitting the audio sample into individual notes we can apply our own techniques to find the frequency.
 
 
+
 1.8   REFERENCES
+
+
 www.google.com
 
 www.wikipedia.com 
